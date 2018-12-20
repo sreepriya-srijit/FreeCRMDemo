@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="32446" started-at="2018-12-13T16:37:26Z" finished-at="2018-12-13T16:37:58Z">
+    <groups>
+    </groups>
+    <test name="Free CRM App Test Cases" duration-ms="32446" started-at="2018-12-13T16:37:26Z" finished-at="2018-12-13T16:37:58Z">
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6eebc39e]" name="setup" is-config="true" duration-ms="11578" started-at="2018-12-13T16:37:26Z" finished-at="2018-12-13T16:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateLoginPageTittleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@6eebc39e]" name="validateLoginPageTittleTest" duration-ms="112" started-at="2018-12-13T16:37:37Z" finished-at="2018-12-13T16:37:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageTittleTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6eebc39e]" name="closeBrowser" is-config="true" duration-ms="926" started-at="2018-12-13T16:37:38Z" finished-at="2018-12-13T16:37:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6eebc39e]" name="setup" is-config="true" duration-ms="7607" started-at="2018-12-13T16:37:39Z" finished-at="2018-12-13T16:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateImageTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@6eebc39e]" name="validateImageTest" duration-ms="306" started-at="2018-12-13T16:37:46Z" finished-at="2018-12-13T16:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateImageTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6eebc39e]" name="closeBrowser" is-config="true" duration-ms="881" started-at="2018-12-13T16:37:46Z" finished-at="2018-12-13T16:37:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6eebc39e]" name="setup" is-config="true" duration-ms="7248" started-at="2018-12-13T16:37:47Z" finished-at="2018-12-13T16:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@6eebc39e]" name="loginTest" duration-ms="2592" started-at="2018-12-13T16:37:55Z" finished-at="2018-12-13T16:37:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6eebc39e]" name="closeBrowser" is-config="true" duration-ms="988" started-at="2018-12-13T16:37:57Z" finished-at="2018-12-13T16:37:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </test> <!-- Free CRM App Test Cases -->
+  </suite> <!-- FREE CRM Application Test Automation Test Suite -->
+</testng-results>

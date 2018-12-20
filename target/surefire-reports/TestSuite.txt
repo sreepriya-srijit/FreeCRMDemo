@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 4, Errors: 0, Skipped: 17, Time elapsed: 221.279 sec <<< FAILURE!
+validateTittleTest(com.crm.qa.testcases.HomePageTest)  Time elapsed: 0.093 sec  <<< FAILURE!
+java.lang.AssertionError: expected [CRMPRO] but found [#1 Free CRM software in the cloud for sales and service]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.crm.qa.testcases.HomePageTest.validateTittleTest(HomePageTest.java:34)
+
+setUp(com.crm.qa.testcases.ContactPageTest)  Time elapsed: 54.358 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchFrameException: No frame element found by name or id mainpanel
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'SRIJIT', ip: '192.168.1.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:939)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator.frame(EventFiringWebDriver.java:632)
+	at com.crm.qa.util.TestUtil.switchToFrame(TestUtil.java:31)
+	at com.crm.qa.testcases.ContactPageTest.setUp(ContactPageTest.java:40)
+
+ContactLinkClick(com.crm.qa.testcases.HomePageTest)  Time elapsed: 40.124 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchFrameException: No frame element found by name or id mainpanel
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'SRIJIT', ip: '192.168.1.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:939)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator.frame(EventFiringWebDriver.java:632)
+	at com.crm.qa.util.TestUtil.switchToFrame(TestUtil.java:31)
+	at com.crm.qa.testcases.HomePageTest.ContactLinkClick(HomePageTest.java:46)
+
+validateHeaderText(com.crm.qa.testcases.HomePageTest)  Time elapsed: 40.118 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchFrameException: No frame element found by name or id mainpanel
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'SRIJIT', ip: '192.168.1.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:939)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator.frame(EventFiringWebDriver.java:632)
+	at com.crm.qa.util.TestUtil.switchToFrame(TestUtil.java:31)
+	at com.crm.qa.testcases.HomePageTest.validateHeaderText(HomePageTest.java:40)
+
